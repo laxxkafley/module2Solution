@@ -1,0 +1,133 @@
+/*basic style*/
+
+
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: white;
+}
+
+  h1 {
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+
+  .row {
+    width: 90%;
+  }
+
+
+
+    section {
+    position: relative;
+    padding: 15px;
+    width: 100%;
+}  
+
+div {
+    background-color: grey;
+    border: 3.5px solid green;
+    width: 100%;
+    
+}
+  
+ .sub1 { 
+        color: maroon;
+        float: right;
+        width: 100px;
+        padding: 5px;
+         margin: -5px -5px 0px;
+        border: 2 px solid crimson;
+        font-size: 125%;
+        font-weight: bold;
+        background-color: lightblue;
+    
+    }
+
+
+.sub2 {
+       
+        color: black;
+        float: right;
+        width: 100px;
+        padding: 5px;
+         margin: -3px -3px 0px;
+        border: 3.5px solid black;
+        text-align: center;
+        font-size: 125%;
+        font-weight: bold;
+        background-color: rgb(223, 212, 121);
+    
+    }
+
+
+.sub3 {
+        color: black;
+        float: right;
+        width: 100px;
+        padding: 5px;
+         margin: -3px -3px 0px;
+        border: 3.5px solid black;
+        text-align: center;
+        font-size: 125%;
+        font-weight: bold;
+        background-color: rgb(223, 212, 121);
+    
+    }
+    
+
+
+ .content {
+    padding: 5px;
+    border: none;
+    background-color: gray;
+    font-family: Helvetica;
+    color: black;
+    margin: 2px ;
+    height: 120px;
+}
+  
+@media (min-width: 1200px) {
+     .col-lg-4 {
+      float: left;
+      width: 33.33%;
+    
+      
+    }
+   
+  }
+  
+  /********** Medium devices only **********/
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .col-md-6 {
+      float:left;
+      width: 50%;
+      
+    
+    }
+
+    .col-md-12 {
+              float:left ;
+              width: 100%;
+              margin-left: auto;
+              margin-right:auto;
+        
+        
+          }
+        }
+  
+    /*mobile version*/
+    @media (max-width: 767px)and (max-width:991) {
+          .col-sm-12 {
+              float: left;
+              width: 100%;
+            
+          }
+      }
+    
+
+
+
